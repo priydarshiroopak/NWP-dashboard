@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
+import {DbNav} from './components/DbNav';
+import {DbAbout} from './components/DbAbout';
+import {DbRules} from './components/DbRules';
+import {DbSubmit} from './components/DbSubmit';
+import {DbRegister} from './components/DbRegister';
+import {Default} from "./components/Default";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+export default function App()  {
+    return (
+      <>
+        <Router>
+          <Switch>
+            <Route exact path={process.env.PUBLIC_URL + '/'}>
+              <DbAbout/>
+            </Route>
+            <Route path={process.env.PUBLIC_URL + "/rules"} component={DbRules} />
+            <Route path={process.env.PUBLIC_URL + "/submission"} component={DbSubmit} />
+            <Route path={process.env.PUBLIC_URL + "/registration"} component={DbRegister} />
+            <Route component={Default} />
+          </Switch>
+          <DbNav />
+        </Router>
+      </>
+    );
+};
