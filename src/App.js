@@ -8,10 +8,10 @@ import {DbRules} from './components/DbRules';
 import {DbSubmit} from './components/DbSubmit';
 import {DbRegister} from './components/DbRegister';
 import {Default} from "./components/Default";
-
+import { Splash } from "./components/Splash";
 export default function App()  {
     return (
-      <>
+      <><Splash/>
         <Router>
           <Switch>
             <Route exact path={process.env.PUBLIC_URL + '/'}>
