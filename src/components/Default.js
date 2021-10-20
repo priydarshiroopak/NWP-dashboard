@@ -2,7 +2,7 @@ import React from "react";
 
 export const Default = (props) => {
   return (
-    <div className="">
+    <div className="db-container">
       <div className="">
         <div className="">
           <h1 className="">404</h1>

@@ -16,8 +16,29 @@ html {
 
   body {
     margin: 0;
+    font-family: 'Patrick Hand', cursive;
+    color: /*white*/;
   }
   
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Slab', serif;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+
+  .db-container {
+    max-width: 60rem;
+  }
+
   #root {
   
   margin: 0;

@@ -3,7 +3,7 @@ import React from "react";
 export const DbRules=() =>{
   return (
     <>
-    <div className="">
+    <div className="db-container">
       <div className="">
           <h1 className="">important!</h1>
           <h3>

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export const DbSubmit=() =>{
   return (
     <>
-      <div className="">
+      <div className="db-container">
         <div className="">
             <h1 className="">Register here!</h1>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 export const DbRegister =() => {
   return (
     <>
-      <div className="">
+      <div className="db-container">
         <div className="">
             <h1 className="">Register here!</h1>
         </div>
