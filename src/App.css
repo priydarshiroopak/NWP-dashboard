@@ -188,7 +188,7 @@ html {
    position: relative;
    top:10vh;
    width: 80vw;
-   height: 70vh;
+   min-height: 70vh;
     border: solid rgba(0, 0, 0, 0.151);
     border-radius: 1rem;
     background-color:##07000067;
