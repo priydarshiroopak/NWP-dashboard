@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/NWP-dashboard/static/css/main.03e774f9.chunk.css",
-    "main.js": "/NWP-dashboard/static/js/main.f3dd165b.chunk.js",
-    "main.js.map": "/NWP-dashboard/static/js/main.f3dd165b.chunk.js.map",
+    "main.css": "/NWP-dashboard/static/css/main.bd8c7b37.chunk.css",
+    "main.js": "/NWP-dashboard/static/js/main.0222317c.chunk.js",
+    "main.js.map": "/NWP-dashboard/static/js/main.0222317c.chunk.js.map",
     "runtime-main.js": "/NWP-dashboard/static/js/runtime-main.3becfb9e.js",
     "runtime-main.js.map": "/NWP-dashboard/static/js/runtime-main.3becfb9e.js.map",
     "static/js/2.98f88aed.chunk.js": "/NWP-dashboard/static/js/2.98f88aed.chunk.js",
     "static/js/2.98f88aed.chunk.js.map": "/NWP-dashboard/static/js/2.98f88aed.chunk.js.map",
     "index.html": "/NWP-dashboard/index.html",
-    "static/css/main.03e774f9.chunk.css.map": "/NWP-dashboard/static/css/main.03e774f9.chunk.css.map",
+    "static/css/main.bd8c7b37.chunk.css.map": "/NWP-dashboard/static/css/main.bd8c7b37.chunk.css.map",
     "static/js/2.98f88aed.chunk.js.LICENSE.txt": "/NWP-dashboard/static/js/2.98f88aed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3becfb9e.js",
     "static/js/2.98f88aed.chunk.js",
-    "static/css/main.03e774f9.chunk.css",
-    "static/js/main.f3dd165b.chunk.js"
+    "static/css/main.bd8c7b37.chunk.css",
+    "static/js/main.0222317c.chunk.js"
   ]
 }
