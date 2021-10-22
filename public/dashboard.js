@@ -45,4 +45,53 @@ window.addEventListener('load', () => {
     offsetMenuBorder(activeItem, menuBorder);
     menu.style.setProperty("--timeOut", "none");
     });
+
+    var script = document.createElement('script');
+    script.onload = function () {
+      const headingTl = gsap.timeline({
+      repeat: 0
+    });
+    
+    headingTl
+      .from(".db-heading", {
+        duration: 1,
+        scaleX: 0,
+        transformOrigin: "left",
+        ease: "expo.inOut"
+      })
+      .from(
+        ".db-heading h1",
+        {
+          y: "100%",
+          duration: 0.8,
+          ease: "expo.out"
+        },
+        "-=0.2"
+      )
+      .from(
+        ".db-heading",
+        {
+          css: { borderBottom: "0.2rem solid black" },
+          duration: 2,
+          transformOrigin: "right",
+          ease: "none"
+        },
+        "-=1"
+      )
+      .from(
+        ".db-heading h1",
+        {
+          duration: 2,
+          transformOrigin: "right",
+          ease: "none",
+          css: { color: "black" }
+        },
+        "-=2"
+      );
+    };
+    script.src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js";
+
+    document.head.appendChild(script); 
+
+    
 });

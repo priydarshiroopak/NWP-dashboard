@@ -4,7 +4,7 @@ export const DbRules=() =>{
   return (
     <>
     <div className="db-container">
-      <div className="">
+      <div className="db-heading">
           <h1 className="">important!</h1>
           <h3>
             These rules aren't meant to be broken :)

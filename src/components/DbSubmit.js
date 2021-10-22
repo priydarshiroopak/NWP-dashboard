@@ -4,7 +4,7 @@ export const DbSubmit=() =>{
   return (
     <>
       <div className="db-container">
-        <div className="">
+        <div className="db-heading">
             <h1 className="">Register here!</h1>
         </div>
         <div>

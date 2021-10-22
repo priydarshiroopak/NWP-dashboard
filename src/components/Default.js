@@ -4,9 +4,9 @@ export const Default = (props) => {
   return (
     <div className="db-container">
       <div className="">
-        <div className="">
+        <div className="db-heading">
           <h1 className="">404</h1>
-          <h1>error</h1>
+          <h2>error</h2>
           <h2>page not found</h2>
           <h3>
             the requested URL{" "}

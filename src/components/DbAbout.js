@@ -4,7 +4,7 @@ export const DbAbout=() => {
   return (
     <>
       <div className="db-container">
-        <div className="">
+        <div className="db-heading">
             <h1 className="">About this Event</h1>
         </div>
         <div>
