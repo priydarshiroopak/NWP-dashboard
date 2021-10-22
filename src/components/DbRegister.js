@@ -3,14 +3,12 @@ import React from "react";
 export const DbRegister =() => {
   return (
     <>
-       <div className="db-container">
-        <div className="db-flex-items">
-            <h1 className="db-heading"
-            style={{backgroundColor:"#ffe797"}} >Register here!</h1>
-        
-        <div className="db-content">
+      <div className="db-container">
+        <div className="">
+            <h1 className="">Register here!</h1>
+        </div>
+        <div>
           <h3>--this section is for offline submissions--</h3>
-          </div>
         </div>
       </div>
     </>

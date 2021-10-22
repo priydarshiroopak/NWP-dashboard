@@ -4,15 +4,12 @@ export const DbSubmit=() =>{
   return (
     <>
       <div className="db-container">
-        <div className="db-flex-items">
-       
-            <h1 style={{backgroundColor:"#9999fb"}} className="db-heading">Register here!</h1>
-       
-        <div className="db-content">
+        <div className="">
+            <h1 className="">Register here!</h1>
+        </div>
+        <div>
           <h3>--this section is for online submissions--</h3>
         </div>
-        
-      </div>
       </div>
     </>
   );

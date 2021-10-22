@@ -17,8 +17,9 @@ html {
   body {
     margin: 0;
     font-family: 'Patrick Hand', cursive;
-   
+    color: /*white*/;
   }
+  
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Josefin Slab', serif;
   }
@@ -37,7 +38,7 @@ html {
   .db-container {
     max-width: 60rem;
   }
-  
+
   #root {
   
   margin: 0;
@@ -167,36 +168,3 @@ html {
       font-size: 1.5em;
   }
   }
- .db-flex-items{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items:center;
- }
- .db-heading{
-   position: fixed;
-   width: 100vw;
-   align-content:flex-end ;
-   padding-top:4vh;
-   height: 14vh;
-   top:-6vh;
-   z-index: 10;
-   text-decoration: underline;
- }
- .db-content{
-   padding: 3rem;
-   position: relative;
-   top:10vh;
-   max-width: 80vw;
-   min-height: 70vh;
-    border: solid rgba(0, 0, 0, 0.151);
-    border-radius: 1rem;
-    background-color:##07000067;
-    margin-bottom: 20vh;
-    transition: border 1s;
-    
- }
- .db-content:hover{
-   border:solid rgb(252, 113, 113);
- }
- 
