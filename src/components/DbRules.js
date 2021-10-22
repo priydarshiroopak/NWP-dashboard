@@ -4,10 +4,10 @@ export const DbRules = () => {
   return (
     <>
       <div className="db-container">
-        <div className="db-flex-items db-heading">
-         
+        <div className="db-flex-items ">
+         <div className="db-heading">
             <h1 style={{backgroundColor:'#ff96bd'}} className="">important!</h1>
-             
+             </div>
           <div className="db-content">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
