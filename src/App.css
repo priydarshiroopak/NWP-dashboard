@@ -23,9 +23,17 @@ html {
     font-family: 'Josefin Slab', serif;
   }
 
+  .db-heading {
+    overflow: hidden;
+    border-bottom: 0.2rem solid black;
+  }
   h1 {
+    text-transform: capitalize;
     font-size: 4rem;
     text-align: center;
+  }
+  h2 {
+    font-size: 3rem;
   }
   h3 {
     font-size: 2rem;

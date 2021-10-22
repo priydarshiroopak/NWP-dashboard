@@ -4,8 +4,8 @@ export const DbRegister =() => {
   return (
     <>
        <div className="db-container">
-        <div className="db-flex-items">
-            <h1 className="db-heading"
+        <div className="db-flex-items db-heading">
+            <h1 className=""
             style={{backgroundColor:"#ffe797"}} >Register here!</h1>
         
         <div className="db-content">

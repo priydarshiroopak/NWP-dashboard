@@ -4,9 +4,9 @@ export const DbRules = () => {
   return (
     <>
       <div className="db-container">
-        <div className="db-flex-items">
+        <div className="db-flex-items db-heading">
          
-            <h1 style={{backgroundColor:'#ff96bd'}} className="db-heading">important!</h1>
+            <h1 style={{backgroundColor:'#ff96bd'}} className="">important!</h1>
              
           <div className="db-content">
             <p>
